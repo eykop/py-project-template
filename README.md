@@ -16,6 +16,8 @@ place.
 3. git's [pre-commit](https://pre-commit.com/hooks) hooks for code format and linting
 4. default python [.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore) file.
 5. [editorconfig](https://editorconfig.org/) - instructs code editors for some files format conventions.
+6. [commitzen](https://commitizen-tools.github.io/commitizen/) for git commits convention, Changelog, and Semantic
+versioning.
 
 
 ## Note about python version in template files:

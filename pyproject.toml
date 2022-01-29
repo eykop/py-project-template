@@ -5,6 +5,7 @@ description = "A startup template project template for python projects."
 authors = ["eykop <e.kopty@yahoo.com>"]
 
 [tool.poetry.dependencies]
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 black = "^21.12b0"
@@ -26,7 +27,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 88
-target-version = ['py36']
+target-version = ['py3']
 include = '\.pyi?$'
 exclude = '''
 (
